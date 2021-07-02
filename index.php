@@ -36,7 +36,7 @@
 	</div>
 
 
-<?php get_sidebar( 'splash' ); ?>
+<?php get_sidebar(); ?>
 
 
 
