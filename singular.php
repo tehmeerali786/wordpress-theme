@@ -15,7 +15,7 @@
 
 			<?php endif; ?>
 
-			<p>Template: index.php</p>
+			<p>Template: singular.php</p>
 
 			
 
