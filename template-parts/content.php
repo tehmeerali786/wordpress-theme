@@ -19,5 +19,11 @@
 							<?php the_content(); ?>
 						</div>
 
+						<?php if( comments_open() ) : ?>
+
+							<?php comments_template(); ?>
+
+						<?php endif; ?>
+
 
 				</article>
