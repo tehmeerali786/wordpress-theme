@@ -15,7 +15,7 @@
 
 			<?php endif; ?>
 
-			<p>Template: singular.php</p>
+			<p>Template: page.php</p>
 
 			
 
@@ -30,7 +30,7 @@
 	</div>
 
 
-<?php get_sidebar(); ?>
+<?php get_sidebar( 'page' ); ?>
 
 
 

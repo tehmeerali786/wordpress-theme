@@ -1,7 +1,7 @@
-	<?php get_header(  ); ?>
+	<?php get_header( 'splash' ); ?>
 
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area extended">
 
 		<main id="main" class="site-main" role="main">
 
@@ -15,7 +15,7 @@
 
 			<?php endif; ?>
 
-			<p>Template: singular.php</p>
+			<p>Template: page-child-page-05.php</p>
 
 			
 
@@ -30,10 +30,10 @@
 	</div>
 
 
-<?php get_sidebar(); ?>
+
 
 
 
 	
 
-<?php get_footer(); ?>
+<?php get_footer( 'splash' ); ?>
