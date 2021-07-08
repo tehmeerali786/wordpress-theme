@@ -25,6 +25,18 @@ function wphierarchy_enqueue_styles() {
 add_action('wp_enqueue_scripts', 'wphierarchy_enqueue_styles');
 
 
+// Load in our JavaScript
+function wphierarchy_enqueue_scripts() {
+
+	//wp_enqueue_script( 'theme-js',  get_stylesheet_directory_uri() . '/assets/js/theme.js', [], time(), true );
+	wp_enqueue_script( 'jquery-theme-js',  get_stylesheet_directory_uri() . '/assets/js/jquery.theme.js', [ 'jquery' ], time(), true );
+
+
+}
+
+add_action('wp_enqueue_scripts', 'wphierarchy_enqueue_scripts');
+
+
 
 // Register Menu Locations
 register_nav_menus( [
